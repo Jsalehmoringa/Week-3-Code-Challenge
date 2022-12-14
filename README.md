@@ -15,6 +15,8 @@ Clone the repo from github using:
 Change directory into the repo folder:
 
     cd flatdango-wk3-code-challenge
+     
+     - You can also access this webpage with the following link:https://jsalehmoringa.github.io/Week-3-Code-Challenge-/
 
 Open it in ``Visual Studio Code``:
 

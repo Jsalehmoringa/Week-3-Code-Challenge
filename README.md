@@ -38,6 +38,8 @@ This ensures our db.json file is running in the backend.
     
 This enables us to run our html file in the browser.
 
+- You can also 
+
 
 # Project set up
 Once the index.html file is running in the browser, you should be directed to a window which is displaying the mini-web application.In the mini-web application,there is a title showing the movie theater and a subtitle explaining the mini-web apps main function.We also have a left side bar that contains the title of the films that are available and a card displaying the details of our first film by default. Upon clicking of a specific film title, you should see a card display showing the details of the film title selected. The card shows the title of the film, its poster image, movie description, the movies runtime and showtime, and the available tickets for purchasing. There is also a buy ticket button at the bottom of the card, which when you press, you should see the available tickets number decrease, meaning that the user has purchased a ticket.

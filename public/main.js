@@ -2,14 +2,14 @@ const filmDetails = document.getElementById("film-descr")
 
 //Fetches all our data from our film api
 function loadFilms() {
-    fetch("http://localhost:3000/films")
+    fetch("https://JamilSaleh.github.io/db.json")
     .then((response)=> response.json())
     .then((filmsObj=> filmsObj.forEach(films => displayfilmNames(films))));
 }
 
 //fetches and displays the first films data
 function dispfirstfilm() {
-    fetch("http://localhost:3000/films/1")
+    fetch("https://JamilSaleh.github.io/db.json")
     .then((response)=> response.json())
     .then((films1 => displayMovieDetails(films1)))
 }
